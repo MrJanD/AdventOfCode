@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC2020", "AoC2020.csproj", "{0CF41042-A1F2-4286-9F25-4FAF4F8CF9F5}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AoC2020Day1", "AoC2020Day1.pyproj", "{167203A7-25EC-4968-8E2A-6209779545F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0CF41042-A1F2-4286-9F25-4FAF4F8CF9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CF41042-A1F2-4286-9F25-4FAF4F8CF9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CF41042-A1F2-4286-9F25-4FAF4F8CF9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CF41042-A1F2-4286-9F25-4FAF4F8CF9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167203A7-25EC-4968-8E2A-6209779545F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167203A7-25EC-4968-8E2A-6209779545F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5D170390-C489-4D7D-810D-12B63FC2C0E0}
+		SolutionGuid = {24CE3041-9D3F-4F31-9DDE-8594FA7FCC01}
 	EndGlobalSection
 EndGlobal
