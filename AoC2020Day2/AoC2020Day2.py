@@ -15,17 +15,12 @@ def inputToStruct():
     for line in input:
         splittedLine = line.split()
         firstTwo = splittedLine[0].split("-")
-        first = int(firstTwo[0])
-        second = int(firstTwo[1])
-        let = splittedLine[1].replace(':', '')
-        pw = splittedLine[2]
-        set.append(PasswordSet(first, second, let, pw))
+        set.append(PasswordSet(int(firstTwo[0]), int(firstTwo[1]), splittedLine[1].replace(':', ''), splittedLine[2]))
     return set
 
 def validEntries():
     entries = inputToStruct()
     return [entry.Policy1 for entry in entries].count(True), [entry.Policy2 for entry in entries].count(True)
-
 
 print("Day 2, Part 1: " + str(validEntries()[0]))
 print("Day 2, Part 2: " + str(validEntries()[1]))
