@@ -38,7 +38,7 @@ def listsEqual(list1, list2):
 def countSeats(list):
     count = 0
     for row in range(len(list)):
-        for column in range(len(list)):
+        for column in range(len(list[0])):
             if list[row][column] == "#":
                 count += 1
     return count
@@ -60,5 +60,5 @@ while True:
         break
     currentSeatingPlan = copy.deepcopy(floatingSeatingPlan)
 
-print("Day 11, Part 1: " + str(countSeats(currentSeatingPlan)))
+print("Day 11, Part 1: " + str(countSeats(floatingSeatingPlan)))
 
