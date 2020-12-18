@@ -25,3 +25,5 @@ for line in input:
         memory[currentAddress] = int("".join(result), 2)
 
 print("Day 14, Part 1: " + str(sum(memory.values())))
+
+# TODO: Part2
