@@ -1,6 +1,6 @@
 from collections import *
 
-input = [14, 1, 17, 0, 3, 20] # Given input
+input = [14, 1, 17, 0, 3, 20] # Input
 inputp2 = input.copy()
 
 def getLastOccurance(list, number):
