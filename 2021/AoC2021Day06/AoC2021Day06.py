@@ -1,7 +1,7 @@
 input = [line.strip() for line in open("../Inputs/day06", "r")]
 
 def getSwarmAfterDays(days):
-    swarmAgeDistribution = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    swarmAgeDistribution = [0 for i in range(9)]
 
     for fish in input[0].split(','):
         swarmAgeDistribution[int(fish)] += 1
