@@ -11,7 +11,6 @@ positions = []
 for line in input:
     positions.append([Point(int(value)) for value in line])
 
-
 def isValidPoint(x, y):
     if x < 0 or x > len(positions[0]) - 1:
         return False
