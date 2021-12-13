@@ -36,9 +36,9 @@ def foldMatrix(foldList, matrix):
     return matrix
 
 matrixSingleFold = foldMatrix([foldList[0]], matrix)
-print("2021 Day 11, Part 1: " + str(len(matrixSingleFold)))
+print("2021 Day 13, Part 1: " + str(len(matrixSingleFold)))
 
-print("2021 Day 11, Part 2: ")
+print("2021 Day 13, Part 2: ")
 matrix = foldMatrix(foldList, matrix)
 for y in range(max([v[1] for v in matrix])+1):
     for x in range(max([v[0] for v in matrix])+1):
