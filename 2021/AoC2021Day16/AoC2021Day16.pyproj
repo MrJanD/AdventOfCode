@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{bbc4b91d-8b88-4aeb-a1b3-e6c946c060ab}</ProjectGuid>
+    <ProjectGuid>1fa17aff-11eb-4dbb-a395-83d7f017f02a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AoC2021Day15.py</StartupFile>
+    <StartupFile>AoC2021Day16.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>AoC2021Day15</Name>
-    <RootNamespace>AoC2021Day15</RootNamespace>
+    <Name>AoC2021Day16</Name>
+    <RootNamespace>AoC2021Day16</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AoC2021Day15.py" />
+    <Compile Include="AoC2021Day16.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
